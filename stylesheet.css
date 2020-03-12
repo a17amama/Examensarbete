@@ -1,0 +1,95 @@
+body {
+   background-color: rgb(240, 233, 233);
+}
+/* Menu styling */
+.menu-area li a {
+    text-decoration: none;
+  }
+
+  .menu-area li {
+    list-style-type: none;
+  }
+
+  .custom-padding{
+    padding-top: 25px;
+  }
+
+  nav {
+    position: relative;
+    width: calc(100% - 70px);
+    margin: 0 auto;
+    padding: 10px 0;
+    background: #333;
+    z-index: 1;
+    padding-right: 2%;
+  }
+
+  .menu-area li {
+    display: inline-block;
+  }
+
+  .menu-area a {
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    padding: 0 25px;
+    font-size: 14px;
+    line-height: 10px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Hover color on menu */
+  .menu-area a:hover {
+    color: yellow;
+  }
+
+/* Menu wings */
+  nav:before {
+    position: absolute;
+    content: '';
+    border-top: 10px solid #333;
+    border-right: 10px solid #333;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    top: 100%;
+    left: 0;
+  }
+
+  nav:after {
+    position: absolute;
+    content: '';
+    border-top: 10px solid #333;
+    border-left: 10px solid #333;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    top: 100%;
+    right: 0;
+  }
+
+  /* Logo styling*/
+  .logo {
+    width: 15%;
+    float: left;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 2%;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
