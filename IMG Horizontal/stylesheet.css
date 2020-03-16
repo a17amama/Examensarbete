@@ -1,7 +1,8 @@
 body {
-  background-color:rgb(240, 233, 233);
+  background-color: #f6f6f6;
 }
 
+/* menu logo design*/
 .logo {
   width: 15%;
   float: left;
@@ -12,6 +13,8 @@ body {
   padding-left: 2%;
   font-family: 'Courier New', Courier, monospace;
 }
+
+/* menu style*/
 .navbar {
    position: relative;
    width: calc(100% - 70px);
@@ -24,6 +27,7 @@ body {
    
   }
   
+  /* menu links*/ 
   .navbar a {
     float: left;
     font-size: 20px;
@@ -34,11 +38,13 @@ body {
     text-transform: uppercase;
   }
   
+  /* position of menu buttons*/
   .dropdown {
     float: left;
     overflow: hidden;
   }
-  
+   
+  /* Styling of menu links and buttons */
   .dropdown .dropbtn {
     cursor: pointer;
     font-size: 16px;  
@@ -54,20 +60,22 @@ body {
   }
   
   
-  
+  /* Dropdown box */
   .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
 
+  /* menu hover turns yellwo */
   .navbar, .dropdown:hover .dropbtn, .dropbtn:focus, .menu-link:hover {
     color: yellow;
   }
   
+  /*drop down links*/
   .dropdown-content a {
     float: none;
     color: black;
@@ -77,21 +85,26 @@ body {
     text-align: left;
   }
 
+  /* Dropdown links turn yellow on hover */
   .dropdown-content a:hover {
-    color: yellow;
+    font-size: 25px;
   }
   
+  /* Hide content of dropdown*/
   
   .show {
     display: block;
   }
-  .logo {
-    width: 15%;
-    float: left;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 40px;
-    text-align: left;
-    padding-left: 2%;
-    font-family: 'Courier New', Courier, monospace;
+  
+  /* menu images*/
+  .dropdown-img {
+    height:30px;
+    width: 30px;
   }
+
+.cart {
+  margin-top: -3%;
+  float: right;
+  margin-left: 95%;
+  
+}
