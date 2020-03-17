@@ -108,3 +108,70 @@ body {
   margin-left: 95%;
   
 }
+
+
+#help {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: auto;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 25px;
+  
+}
+
+#ball {
+  width: 70px;
+  height: 70px;
+  margin: 50px auto;
+  position: fixed;
+  right: 5%;
+  bottom: -30px;
+  opacity: 0.75;
+  border-radius: 50%;
+  background-color:  #ffe600; 
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  0% {
+      right: -300px;
+  }
+  50% {
+    right: 5%;
+    opacity: 0.3;
+
+  }
+} 
+ #ball:hover {
+  width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 8px 8px rgba(5, 5, 5, 0.3);
+  
+
+}
+
+#help:hover{
+  
+  padding-bottom: 20px;;
+}
+
+.content-box{
+  
+  margin: 0 auto;
+  margin-top: 2%;
+  height: 800px;
+  width: 1300px;
+  overflow: auto;
+  background-color: tomato;
+}
+
+.test {
+  height:1000px;
+    width: 400px;
+}
