@@ -100,8 +100,10 @@ body {
   .dropdown-img {
     height:30px;
     width: 30px;
+    
   }
 
+  /* Cart icon broken!!!*/
 .cart {
   margin-top: -3%;
   float: right;
@@ -110,7 +112,7 @@ body {
 }
 
 
-#help {
+#licenses {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: auto;
   font-size: 18px;
@@ -152,7 +154,7 @@ body {
   justify-content: center;
   align-items: center;
   box-shadow: 8px 8px rgba(5, 5, 5, 0.3);
-  
+  cursor: pointer;
 
 }
 
@@ -169,9 +171,19 @@ body {
   width: 1300px;
   overflow: auto;
   background-color: tomato;
+  display: flex;
+  flex-wrap: wrap;
+  
 }
 
-.test {
-  height:1000px;
-    width: 400px;
+
+
+.items {
+  height: 200px;
+  width: 200px;
+  padding: 26px;
+ 
+
 }
+
+
