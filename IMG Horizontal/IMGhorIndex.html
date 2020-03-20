@@ -5,18 +5,17 @@
 
     </head>
     <body>
-      
+      <!--Menu, with dropdowns and images in menu-->
         <div class="navbar" class="nav">
           <div class="logo">DØ<span style="color: rgb(248, 232, 8);">Z</span>E</div>
             <a class="menu-link" href="#">Home </a>
-            <a  class="menu-link" href="#">outdoors</a>
-            <div class="dropdown">
 
+            <div class="dropdown">
             <button class="dropbtn" onclick="firstDropdown('myDropdown')">Bottoms </button>
             <div class="dropdown-content" id="myDropdown">
-              <a href="#"><img class="dropdown-img" src="58103.svg"> Link 1 </a>
-              <a href="#"><img class="dropdown-img" src="shorts.svg"> Link 2</a>
-              <a href="#"><img class="dropdown-img" src="skirt.svg"> Link 3</a>
+              <a href="#"><img class="dropdown-img" src="58103.svg"> Pants </a>
+              <a href="#"><img class="dropdown-img" src="shorts.svg"> Shorts </a>
+              <a href="#"><img class="dropdown-img" src="skirt.svg"> Skirts</a>
             </div>
             </div> 
 
@@ -49,11 +48,41 @@
             </div>               
         </div> 
 
+
+
+        <div class="dropdown">
+          <button class="dropbtn" onclick="firstDropdown('myDropdown5')"> Accessories </button>
+          <div class="dropdown-content" id="myDropdown5">
+            <a href="#"><img class="dropdown-img" src="purse.svg">Purses</a>
+            <a href="#"><img class="dropdown-img" src="jewlery.svg">Jewelry</a>
+            <a href="#"><img class="dropdown-img" src="hat.svg">Hats</a>
+            <a href="#"><img class="dropdown-img" src="glasses.svg">Glasses</a>           
+          </div>               
+      </div> 
+
+      <div class="dropdown">
+        <button class="dropbtn" onclick="firstDropdown('myDropdown6')"> Shoes </button>
+        <div class="dropdown-content" id="myDropdown6">
+          <a href="#"><img class="dropdown-img" src="sneakers.svg">Sneakers</a>
+          <a href="#"><img class="dropdown-img" src="heels.svg">Heels</a>
+          <a href="#"><img class="dropdown-img" src="sandals.svg">Sandals</a>
+        </div>               
+    </div> 
+
+    <div class="dropdown">
+      <button class="dropbtn" onclick="firstDropdown('myDropdown7')"> Overalls & Dresses </button>
+      <div class="dropdown-content" id="myDropdown7">
+        <a href="#"><img class="dropdown-img" src="dress.svg">Dresses</a>
+        <a href="#"><img class="dropdown-img" src="overall.svg">Overalls</a>
+      </div>               
+  </div> 
+
             <a class="cart" href="#">🛒</a> 
           </div>
 
+           <!--Images of items inside a contentbox (centered)-->
           <div class="content-box">
-
+           
              <table>
                 <tr>
                     <td><img class="items"  src="test.jpg.jpg"></td>
@@ -103,7 +132,7 @@
              </table> 
              
           </div>
-
+          <!--License ball at bottom right-->
           <div id="ball">
             <p id="licenses">Licenses</p>
         </div>  

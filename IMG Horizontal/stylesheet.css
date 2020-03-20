@@ -111,7 +111,7 @@ body {
   
 }
 
-
+/* Licenses text */
 #licenses {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: auto;
@@ -123,6 +123,7 @@ body {
   
 }
 
+/* ballbutton for licenses */
 #ball {
   width: 70px;
   height: 70px;
@@ -163,6 +164,7 @@ body {
   padding-bottom: 20px;;
 }
 
+/*The center box containing all items*/
 .content-box{
   
   margin: 0 auto;
@@ -170,14 +172,13 @@ body {
   height: 800px;
   width: 1300px;
   overflow: auto;
-  background-color: tomato;
+  background-color:#f6f6f6;
   display: flex;
   flex-wrap: wrap;
   
 }
 
-
-
+/* Images of items inside of contentvox*/
 .items {
   height: 200px;
   width: 200px;
