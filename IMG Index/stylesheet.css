@@ -12,7 +12,7 @@ body {
     padding-left: 2%;
     font-family: 'Courier New', Courier, monospace;
   }
-  
+
   .navbar {
     position: relative;
     width: calc(100% - 70px);
@@ -22,9 +22,32 @@ body {
     padding-right: 2%;
     height: 50px;
     
-   }
+   } 
+
+   /*Home and back button*/
+   .navigation-box{
+    margin-left: 18.5%;
+  }
   
-  
+  .navigation-buttons {
+    background-color: #fff;
+    font-size: 22px;
+    padding: 18px;
+    font-family: monospace;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  .navigation-buttons:hover{
+    background-color: yellow;
+  }
+
+  .nav-icon{
+    margin-top: 40px;
+    height:19px;
+    width: 19px;
+  }
   
   /* Licenses text */
   #licenses {
@@ -83,12 +106,16 @@ body {
   .content-box{  
     margin: 0 auto;
     margin-top: 2%;
-    height: 550px;
+    height: 600px;
     width: 1200px;
     overflow: auto;
-    background-color: white;
+    background-color:rgb(240, 240, 238);
     display: flex;
     flex-wrap: wrap;
+    font-family: monospace;
+    font-size: larger;
+    font-weight: bold;
+    font-size: 20px;
     
   }
   
@@ -96,8 +123,7 @@ body {
   .menu-images{
     height:265px;
     width: 293px;
-    padding: 1px;
-    
+    padding: 1px;    
    
   }
   
