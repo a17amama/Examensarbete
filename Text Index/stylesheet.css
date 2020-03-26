@@ -1,0 +1,131 @@
+body {
+    background-color:rgb(29, 28, 28);
+  }
+  
+  /* menu logo design*/
+  .logo {
+    float: left;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 2%;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .navbar {
+    position: relative;
+    width: calc(100% - 70px);
+    margin: 0 auto;
+    padding: 10px 0;  
+    z-index: 1;
+    padding-right: 2%;
+    height: 50px;
+    
+   } 
+
+   /*Home and back button*/
+   .navigation-box{
+    margin-left: 18.5%;
+  }
+  
+  .navigation-buttons {
+    background-color: #fff;
+    font-size: 22px;
+    padding: 18px;
+    font-family: monospace;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  .navigation-buttons:hover{
+    background-color: yellow;
+  }
+
+  .nav-icon{
+    margin-top: 40px;
+    height:19px;
+    width: 19px;
+  }
+  
+  /* Licenses text */
+  #licenses {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 25px;
+    
+  }
+  
+  /* ballbutton for licenses */
+  #ball {
+    width: 70px;
+    height: 70px;
+    margin: 50px auto;
+    position: fixed;
+    right: 2%;
+    bottom: -20px;
+    opacity: 0.75;
+    border-radius: 50%;
+    background-color:  #ffe600; 
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    0% {
+        right: -300px;
+    }
+    50% {
+      right: 5%;
+      opacity: 0.3;
+  
+    }
+  } 
+   #ball:hover {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px rgba(5, 5, 5, 0.3);
+    cursor: pointer;
+  
+  }
+  
+  #help:hover{
+    
+    padding-bottom: 20px;;
+  }
+  
+  /*The center box containing all items*/
+  .content-box{  
+    margin: 0 auto;
+    margin-top: 2%;
+    height: 600px;
+    width: 1200px;
+    overflow: auto;
+    background-color:rgb(240, 240, 238);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: monospace;
+    font-size: larger;
+    font-weight: bold;
+    font-size: 20px;
+    
+  }
+  
+  /* Images of items inside of contentvox*/
+  .menu-images{
+    height:265px;
+    width: 293px;
+    padding: 1px;    
+   
+  }
+  
+  
+  
