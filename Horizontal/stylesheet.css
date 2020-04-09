@@ -170,7 +170,7 @@ body {
     margin: 0 auto;
     margin-top: 2%;
     height: 800px;
-    width: 1300px;
+    width: 1050px;
     overflow: auto;
     background-color:#f6f6f6;
     display: flex;
@@ -185,6 +185,11 @@ body {
     padding: 26px;
    
   
+  }
+
+  #items:active {
+    opacity: 0.4;
+
   }
   
   

@@ -22,3 +22,7 @@ function firstDropdown(dropdowns) {
       }
     }
   }});
+
+  function color() {
+    document.getElementById("items").style.color = "red";
+  }
