@@ -4,7 +4,6 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="rstylesheet.css">
-        <script src="rjs.js"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
@@ -25,7 +24,7 @@
             <div class="dropdown">
             <button class="dropbtn" onclick="firstDropdown('myDropdown')">Bottoms </button>
             <div class="dropdown-content" id="myDropdown">
-              <a href="#"> Pants </a>
+              <a href="#" class="log"> Pants </a>
               <a href="#"> Shorts </a>
               <a href="#"> Skirts</a>
             </div>
@@ -97,7 +96,7 @@
                     $result = mysqli_query($conn, $sql);  
                   
                     while ($row = mysqli_fetch_assoc($result)) {
-                      echo '<div class="item">';
+                      echo '<div class="item" onclick="color(event)">';
                       echo '<img src="'. $row['path'] . '" />';
                       echo $row['namn'];
                       echo '</div>';
@@ -113,6 +112,6 @@
           
           
        
-
+        <script src="real.js"></script>
 </body>
 </html>
