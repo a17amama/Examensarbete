@@ -15,7 +15,7 @@
         
         <div class="navigation-boxItems">
             <a class="navigation-buttons" href="index.php" class="button"> <img class="nav-icon" src="house.png" alt="home"> Home</a>
-            <a class="navigation-buttons" href="dress.php" class="button"> <img class="nav-icon" src="arrow.png" alt="back"> Back</a>
+            <a class="navigation-buttons" href="accessories.php" class="button"> <img class="nav-icon" src="arrow.png" alt="back"> Back</a>
         </div>  
 
             <!--The items from the database and the contentbox-->
