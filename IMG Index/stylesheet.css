@@ -29,6 +29,10 @@ body {
     margin-left: 10.5%;
   }
   
+  .navigation-boxItems{
+    margin-left: 20.5%;
+  }
+
   .navigation-buttons {
     background-color: #fff;
     font-size: 22px;
@@ -128,4 +132,26 @@ body {
   }
   
   
-  
+  .Itemcontent-box{
+    
+    margin: 0 auto;
+    margin-top: 2%;
+    height: 800px;
+    width: 1050px;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  img:not(.nav-icon) {
+    display: block;
+  }
+
+  .item {
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 0px 30px;
+    height: 250px;
+    color:white;
+  }
