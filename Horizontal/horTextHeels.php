@@ -19,7 +19,7 @@
       <!--Menu, with dropdowns and images in menu-->
         <div class="navbar" class="nav">
           <div class="logo">DØ<span style="color: rgb(248, 232, 8);">Z</span>E</div>
-            <a class="menu-link" href="#">Home </a>
+            <a class="menu-link" href="Rindex.php">Home </a>
 
             <div class="dropdown">
             <button class="dropbtn" onclick="firstDropdown('myDropdown')">Bottoms </button>
