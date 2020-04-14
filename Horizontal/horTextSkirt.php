@@ -64,7 +64,7 @@
         <div class="dropdown">
           <button class="dropbtn" onclick="firstDropdown('myDropdown5')"> Accessories </button>
           <div class="dropdown-content" id="myDropdown5">
-            <a href="horTextBag.php">Purses</a>
+            <a href="horTextBag.php">Bags</a>
             <a href="horTextHolder.php">Jewelry</a>
             <a href="horTextHolder.php">Hats</a>
             <a href="horTextHolder.php">Glasses</a>           
@@ -91,7 +91,7 @@
            <!--Images of items inside a contentbox (centered)-->
            <div class="content-box">
             <?php
-                    $sql = "SELECT * FROM dress;";
+                    $sql = "SELECT * FROM rskirts;";
                     
                     $result = mysqli_query($conn, $sql);  
                   
