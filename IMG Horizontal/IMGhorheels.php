@@ -17,7 +17,7 @@
       <!--Menu, with dropdowns and images in menu-->
         <div class="navbar" class="nav">
           <div class="logo">DØ<span style="color: rgb(248, 232, 8);">Z</span>E</div>
-            <a class="menu-link" href="#">Home </a>
+            <a class="menu-link" href="IMGhorIndex.php">Home </a>
 
             <div class="dropdown">
             <button class="dropbtn" onclick="firstDropdown('myDropdown')">Bottoms </button>
@@ -85,9 +85,21 @@
         <a href="IMGhorfiller.php"><img class="dropdown-img" src="overall.svg">Overalls</a>
       </div>    
             </div>
+</div>
            <!--Images of items inside a contentbox (centered)-->
            <div class="content-box">
-            <p class="welcome">WELCOME</p>           
+                <?php
+                    $sql = "SELECT * FROM rheels;";
+                    
+                    $result = mysqli_query($conn, $sql);  
+                  
+                    while ($row = mysqli_fetch_assoc($result)) {
+                      echo '<div class="item" onclick="color(event)">';
+                      echo '<img src="'. $row['path'] . '" />';
+                      echo $row['namn'];
+                      echo '</div>';
+                    }
+                  ?>         
             </div>
           
           <!--License ball at bottom right-->

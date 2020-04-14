@@ -165,26 +165,61 @@ body {
 }
 
 /*The center box containing all items*/
+
 .content-box{
   
   margin: 0 auto;
   margin-top: 2%;
   height: 800px;
-  width: 1300px;
+  width: 1050px;
   overflow: auto;
-  background-color:#f6f6f6;
   display: flex;
   flex-wrap: wrap;
   
 }
 
-/* Images of items inside of contentvox*/
-.items {
-  height: 200px;
-  width: 200px;
-  padding: 26px;
- 
 
+/* Images of items inside of contentvox*/
+
+
+img {
+  display: block;
+}
+
+.item {
+  margin-left: 50px;
+  margin-top: 10px;
+  padding: 0px 30px;
+  height: 250px
+}
+
+ /*Home and back button*/
+ .navigation-box{
+  margin-left: 10.5%;
+}
+
+.navigation-buttons {
+  background-color: #fff;
+  font-size: 22px;
+  padding: 18px;
+  font-family: monospace;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navigation-buttons:hover{
+  background-color: yellow;
+}
+
+.nav-icon{
+  margin-top: 40px;
+  height:19px;
+  width: 19px;
 }
 
 
+.welcome {
+ font-size: 80px;
+  margin: 0 auto;
+}
