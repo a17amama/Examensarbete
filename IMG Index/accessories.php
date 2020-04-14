@@ -13,8 +13,8 @@
           <div class="logo">DØ<span style="color: rgb(248, 232, 8);">Z</span>E</div>
         </div>
         <div class="navigation-box">
-            <a class="navigation-buttons" href="index.html" class="button"> <img class="nav-icon" src="house.png" alt="home"> Home</a>
-            <a class="navigation-buttons" href="index.html" class="button"> <img class="nav-icon" src="arrow.png" alt="back"> Back</a>
+            <a class="navigation-buttons" href="index.php" class="button"> <img class="nav-icon" src="house.png" alt="home"> Home</a>
+            <a class="navigation-buttons" href="index.php" class="button"> <img class="nav-icon" src="arrow.png" alt="back"> Back</a>
         </div>  
             <!--Images of menu navigation inside a contentbox (centered)-->
           <div class="content-box">          

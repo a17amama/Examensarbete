@@ -21,7 +21,7 @@
             <!--The items from the database and the contentbox-->
           <div class="Itemcontent-box">  
             <?php
-            $sql = "SELECT * FROM dress;";
+            $sql = "SELECT * FROM rheels;";
             
             $result = mysqli_query($conn, $sql);  
           
