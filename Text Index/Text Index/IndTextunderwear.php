@@ -1,6 +1,8 @@
 <!DOCTYPE html>
     <head>
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        
 
     </head>
@@ -12,16 +14,16 @@
         <div class="navigation-box">
           <a class="navigation-buttons" href="TextIndex.php" class="button"> Home</a>
           <a class="navigation-buttons" href="TextIndex.php" class="button"> Back</a>
+            
         </div>  
             <!--Images of menu navigation inside a contentbox (centered)-->
           <div class="content-box">          
-             <table>
+             <table>               
                 <tr>
-                    <td class="textmenu"><a href="IndTextdress.php">Dress</a></td>       
-                      <td class="textmenu"><a href="IndTextoverall.php">Overall</a></td>    
-                  </tr>
-   
-               
+                  <td class="textmenu"><a href="IndTextpanties.php">Panties</a></td>    
+                    <td class="textmenu"><a href="IndTextbras.php">Bras</a></td>    
+                    <td class="textmenu"><a href="IndTextboxers.php">Boxers</a></td>    
+                </tr>
  
              </table> 
             </div>

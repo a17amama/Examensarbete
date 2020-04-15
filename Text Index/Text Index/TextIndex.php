@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+    <html>
     <head>
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
        
@@ -15,17 +16,17 @@
         </div>  
             <!--Images of menu navigation inside a contentbox (centered)-->
           <div class="content-box">          
-             <table>
+          <table>
                 <tr>
-                    <td class="textmenu"><a href="InTextbottom.php">Bottoms</a></td>
-                    <td class="textmenu"><a href="InTexttop.php">Tops</a></td>
-                    <td class="textmenu"><a href="InTextswimwear.php">Swimwear</a></td>
-                    <td class="textmenu"><a href="InTextunderwear.php">Underwear</a></td>                
+                    <td class="textmenu"><a href="IndTextbottom.php">Bottoms</a></td>
+                    <td class="textmenu"><a href="IndTexttop.php">Tops</a></td>
+                    <td class="textmenu"><a href="IndTextswimwear.php">Swimwear</a></td>
+                    <td class="textmenu"><a href="IndTextunderwear.php">Underwear</a></td>                
                 </tr>
                 <tr>
-                  <td class="textmenu"><a href="InTextshoes.php">Shoes</a></td>    
-                    <td class="textmenu"><a href="InTextaccessories.php">Accessories</a></td>    
-                    <td class="textmenu"><a href="InTextdress.php">Dresses & Overalls</a></td>    
+                  <td class="textmenu"><a href="IndTextshoes.php">Shoes</a></td>    
+                    <td class="textmenu"><a href="IndTextaccessories.php">Accessories</a></td>    
+                    <td class="textmenu"><a href="IndTextdress.php">Dresses & Overalls</a></td>    
                 </tr>
  
              </table> 
@@ -35,3 +36,8 @@
           <div id="ball">
             <p id="licenses">Licenses</p>
         </div>  
+
+        <script src="real.js"></script>
+
+    </body>
+    </html>
