@@ -21,9 +21,9 @@
           <div class="content-box">          
              <table>
                 <tr>
-                    <td><a href="swimholder.php"><img class="menu-images" src="bikini.svg"></a></td>
-                    <td><a href="swimholder.php"><img class="menu-images" src="swimshorts.svg"></a></td>
-                    <td><a href="swimholder.php"><img class="menu-images" src="swimsuit.svg"></a></td>
+                    <td><a class="log" href="swimholder.php"><img class="menu-images" src="bikini.svg"></a></td>
+                    <td><a class="log" href="swimholder.php"><img class="menu-images" src="swimshorts.svg"></a></td>
+                    <td><a class="log" href="swimholder.php"><img class="menu-images" src="swimsuit.svg"></a></td>
                                   
                 </tr>
                
@@ -33,7 +33,7 @@
          
           <!--License ball at bottom right-->
           <div id="ball">
-            <p id="licenses">Licenses</p>
+            <p id="licenses" class="log">Licenses</p>
         </div>  
           
           

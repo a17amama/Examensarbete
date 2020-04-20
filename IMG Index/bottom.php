@@ -16,16 +16,16 @@
           <div class="logo">DØ<span style="color: rgb(248, 232, 8);">Z</span>E</div>
         </div>
         <div class="navigation-box">
-            <a class="navigation-buttons" href="index.php" class="button"> <img class="nav-icon" src="house.png" alt="home"> Home</a>
-            <a class="navigation-buttons" href="index.php" class="button"> <img class="nav-icon" src="arrow.png" alt="back"> Back</a>
+            <a class="navigation-buttons log" href="index.php" class="button"> <img class="nav-icon" src="house.png" alt="home"> Home</a>
+            <a class="navigation-buttons log" href="index.php" class="button"> <img class="nav-icon" src="arrow.png" alt="back"> Back</a>
         </div>  
             <!--Images of menu navigation inside a contentbox (centered)-->
           <div class="content-box">          
              <table>
                 <tr>
-                    <td><a href="pantholder.php"><img class="menu-images" src="bottoms.svg"></a></td>
-                    <td><a href="pantholder.php"><img class="menu-images" src="shorts.svg"></a></td>
-                    <td><a href="imgIndSkirt.php"><img class="menu-images" src="skirt.svg"></a></td>
+                    <td><a class="log" href="pantholder.php"><img class="menu-images" src="bottoms.svg"></a></td>
+                    <td><a class="log" href="pantholder.php"><img class="menu-images" src="shorts.svg"></a></td>
+                    <td><a class="log" href="imgIndSkirt.php"><img class="menu-images" src="skirt.svg"></a></td>
                                   
                 </tr>
                
@@ -35,7 +35,7 @@
          
           <!--License ball at bottom right-->
           <div id="ball">
-            <p id="licenses">Licenses</p>
+            <p id="licenses" class="log">Licenses</p>
         </div>  
           
         <script src="real.js"></script>
