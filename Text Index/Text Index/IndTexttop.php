@@ -11,8 +11,8 @@
           <div class="logo">DØ<span style="color: rgb(248, 232, 8);">Z</span>E</div>
         </div>
         <div class="navigation-box">
-          <a class="navigation-buttons" href="TextIndex.php" class="button"> Home</a>
-          <a class="navigation-buttons" href="TextIndex.php" class="button"> Back</a>
+          <a class="navigation-buttons log" href="TextIndex.php" class="button"> Home</a>
+          <a class="navigation-buttons log" href="TextIndex.php" class="button"> Back</a>
             
         </div>  
             <!--Images of menu navigation inside a contentbox (centered)-->
@@ -21,8 +21,8 @@
                 <tr>
                   <td class="textmenu"><a href="IndTexttshirt.php">T-shirts</a></td>    
                     <td class="textmenu"><a class="log" href="IndTexttopHolder.php">Tanktops</a></td>    
-                    <td class="textmenu"><a href="IndTextjacket.php">Jackets</a></td>    
-                    <td class="textmenu"><a href="IndTextcoat.php">Coats</a></td>    
+                    <td class="textmenu"><a class="log" href="IndTextjacket.php">Jackets</a></td>    
+                    <td class="textmenu"><a class="log" href="IndTextcoat.php">Coats</a></td>    
                 </tr>
  
              </table> 

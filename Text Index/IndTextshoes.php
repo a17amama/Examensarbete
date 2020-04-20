@@ -11,17 +11,17 @@
           <div class="logo">DØ<span style="color: rgb(248, 232, 8);">Z</span>E</div>
         </div>
         <div class="navigation-box">
-          <a class="navigation-buttons" href="TextIndex.php" class="button"> Home</a>
-          <a class="navigation-buttons" href="TextIndex.php" class="button"> Back</a>
+          <a class="navigation-buttons log" href="TextIndex.php" class="button"> Home</a>
+          <a class="navigation-buttons log" href="TextIndex.php" class="button"> Back</a>
             
         </div>  
             <!--Images of menu navigation inside a contentbox (centered)-->
           <div class="content-box">          
              <table>               
                 <tr>
-                  <td class="menuitem"><a class="menuitem" href="IndTextshoesHolder.php">Sneakers</a></td>    
-                    <td class="menuitem"><a class="menuitem" href="IndTextheels.php">Heels</a></td>    
-                    <td class="menuitem"><a class="menuitem" href="IndTextshoesHolder.php">Sandals</a></td>    
+                  <td class="menuitem"><a class="menuitem log" href="IndTextshoesHolder.php">Sneakers</a></td>    
+                    <td class="menuitem"><a class="menuitem log" href="IndTextheels.php">Heels</a></td>    
+                    <td class="menuitem"><a class="menuitem log" href="IndTextshoesHolder.php">Sandals</a></td>    
                 </tr>
  
              </table> 
@@ -29,5 +29,7 @@
          
           <!--License ball at bottom right-->
           <div id="ball">
-            <p id="licenses">Licenses</p>
+            <p id="licenses" class="log">Licenses</p>
         </div>  
+        <script src="real.js"></script>
+</body>

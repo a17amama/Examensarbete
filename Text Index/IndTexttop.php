@@ -11,19 +11,19 @@
           <div class="logo">DØ<span style="color: rgb(248, 232, 8);">Z</span>E</div>
         </div>
         <div class="navigation-box">
-          <a class="navigation-buttons" href="TextIndex.php" class="button"> Home</a>
-          <a class="navigation-buttons" href="TextIndex.php" class="button"> Back</a>
+          <a class="navigation-buttons log" href="TextIndex.php" class="button"> Home</a>
+          <a class="navigation-buttons log" href="TextIndex.php" class="button"> Back</a>
             
         </div>  
             <!--Images of menu navigation inside a contentbox (centered)-->
           <div class="content-box">          
              <table>               
                 <tr>
-                  <td class="menuitem"><a  class="menuitem" href="IndTexttshirts.php">T-shirts</a></td>    
-                    <td class="menuitem"><a class="menuitem" href="IndTexttopHolder.php">Tanktops</a></td>    
-                    <td class="menuitem"><a class="menuitem" href="IndTexttopHolder.php">Jackets</a></td>    
-                    <td class="menuitem"><a class="menuitem"  href="IndTexttopHolder.php">Coats</a></td>   
-                    <td class="menuitem"><a class="menuitem"  href="IndTexthoodie.php">Hoodie</a></td>  
+                  <td class="menuitem"><a  class="menuitem log" href="IndTexttshirts.php">T-shirts</a></td>    
+                    <td class="menuitem"><a class="menuitem log" href="IndTexttopHolder.php">Tanktops</a></td>    
+                    <td class="menuitem"><a class="menuitem log" href="IndTexttopHolder.php">Jackets</a></td>    
+                    <td class="menuitem"><a class="menuitem log"  href="IndTexttopHolder.php">Coats</a></td>   
+                    <td class="menuitem"><a class="menuitem log"  href="IndTexthoodie.php">Hoodie</a></td>  
                 </tr>
  
              </table> 
@@ -31,5 +31,7 @@
          
           <!--License ball at bottom right-->
           <div id="ball">
-            <p id="licenses">Licenses</p>
+            <p id="licenses" class="log">Licenses</p>
         </div>  
+        <script src="real.js"></script>
+</body>
