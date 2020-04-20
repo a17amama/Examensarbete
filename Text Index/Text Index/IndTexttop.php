@@ -20,7 +20,7 @@
              <table>               
                 <tr>
                   <td class="textmenu"><a href="IndTexttshirt.php">T-shirts</a></td>    
-                    <td class="textmenu"><a href="IndTexttopHolder.php">Tanktops</a></td>    
+                    <td class="textmenu"><a class="log" href="IndTexttopHolder.php">Tanktops</a></td>    
                     <td class="textmenu"><a href="IndTextjacket.php">Jackets</a></td>    
                     <td class="textmenu"><a href="IndTextcoat.php">Coats</a></td>    
                 </tr>

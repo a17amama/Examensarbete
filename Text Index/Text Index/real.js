@@ -36,12 +36,32 @@ function firstDropdown(dropdowns) {
   }
   
   function LogValues(event) {
-    console.log(event);
-    let currentDate = new Date();
+    event.preventDefault();
+
+    console.log(event.currentTarget);
     //all links contains href
-    let element = event.target.href;
-  
-    console.log(element, currentDate);
-  
+    var targetUrl = event.currentTarget.href;
+    var itemName = event.currentTarget.innerText;
+
+    sendAjaxRequest(itemName, targetUrl);
+  }
+
+  function sendAjaxRequest(_name, _url) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("POST", "datalog.php", true); 
+    xhttp.setRequestHeader("Content-Type", "application/json");
+    xhttp.onreadystatechange = function() {
+       if (this.readyState == 4 && this.status == 200) {
+         // Response
+         console.log(this.responseText);
+       }
+    };
+
+    var current_datetime = new Date()
+    var formatted_date = current_datetime.getFullYear() + "-" + (current_datetime.getMonth() + 1) + "-" + current_datetime.getDate() + " " + current_datetime.getHours() + ":" + current_datetime.getMinutes() + ":" + current_datetime.getSeconds() 
+
+    var data = {name: _name,datum: formatted_date,url: _url};
+    
+    xhttp.send(JSON.stringify(data));
   }
   

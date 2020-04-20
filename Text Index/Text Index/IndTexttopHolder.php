@@ -26,7 +26,7 @@
             $result = mysqli_query($conn, $sql);  
           
             while ($row = mysqli_fetch_assoc($result)) {
-              echo '<div class="item" onclick="color(event)">';
+              echo '<div class="item log" onclick="color(event)">';
               echo '<img src="'. $row['path'] . '" />';
               echo $row['namn'];
               echo '</div>';
