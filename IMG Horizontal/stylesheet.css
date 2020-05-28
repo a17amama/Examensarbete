@@ -1,0 +1,225 @@
+body {
+  background-color: #f6f6f6;
+}
+
+/* menu logo design*/
+.logo {
+  width: 15%;
+  float: left;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 40px;
+  text-align: left;
+  padding-left: 2%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* menu style*/
+.navbar {
+   position: relative;
+   width: calc(100% - 70px);
+   margin: 0 auto;
+   padding: 10px 0;
+   background: #333;
+   z-index: 1;
+   padding-right: 2%;
+   height: 50px;
+   
+  }
+  
+  /* menu links*/ 
+  .navbar a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  /* position of menu buttons*/
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+   
+  /* Styling of menu links and buttons */
+  .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  
+  /* Dropdown box */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* menu hover turns yellwo */
+  .navbar, .dropdown:hover .dropbtn, .dropbtn:focus, .menu-link:hover {
+    color: yellow;
+  }
+  
+  /*drop down links*/
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-transform: initial;
+    display: block;
+    text-align: left;
+  }
+
+  /* Dropdown links turn yellow on hover */
+  .dropdown-content a:hover {
+    font-size: 25px;
+  }
+  
+  /* Hide content of dropdown*/
+  
+  .show {
+    display: block;
+  }
+  
+  /* menu images*/
+  .dropdown-img {
+    height:30px;
+    width: 30px;
+    
+  }
+
+  /* Cart icon broken!!!*/
+.cart {
+  margin-top: -3%;
+  float: right;
+  margin-left: 95%;
+  
+}
+
+/* Licenses text */
+#licenses {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: auto;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 25px;
+  
+}
+
+/* ballbutton for licenses */
+#ball {
+  width: 70px;
+  height: 70px;
+  margin: 50px auto;
+  position: fixed;
+  right: 5%;
+  bottom: -30px;
+  opacity: 0.75;
+  border-radius: 50%;
+  background-color:  #ffe600; 
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  0% {
+      right: -300px;
+  }
+  50% {
+    right: 5%;
+    opacity: 0.3;
+
+  }
+} 
+ #ball:hover {
+  width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 8px 8px rgba(5, 5, 5, 0.3);
+  cursor: pointer;
+
+}
+
+#help:hover{
+  
+  padding-bottom: 20px;;
+}
+
+/*The center box containing all items*/
+
+.content-box{
+  
+  margin: 0 auto;
+  margin-top: 2%;
+  height: 800px;
+  width: 1050px;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+
+/* Images of items inside of contentvox*/
+
+
+img {
+  display: block;
+}
+
+.item {
+  margin-left: 50px;
+  margin-top: 10px;
+  padding: 0px 30px;
+  height: 250px
+}
+
+ /*Home and back button*/
+ .navigation-box{
+  margin-left: 10.5%;
+}
+
+.navigation-buttons {
+  background-color: #fff;
+  font-size: 22px;
+  padding: 18px;
+  font-family: monospace;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navigation-buttons:hover{
+  background-color: yellow;
+}
+
+.nav-icon{
+  margin-top: 40px;
+  height:19px;
+  width: 19px;
+}
+
+
+.welcome {
+ font-size: 80px;
+  margin: 0 auto;
+}
